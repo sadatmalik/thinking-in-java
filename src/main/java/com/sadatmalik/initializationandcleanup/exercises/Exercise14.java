@@ -7,6 +7,13 @@ public class Exercise14 {
     static String s = "Sadat";
     static String m;
 
+    String n;
+
+    {
+        n = "name";
+        System.out.println(n);
+    }
+
     static {
         m = "Malik";
     }
@@ -16,6 +23,7 @@ public class Exercise14 {
     }
 
     public static void main(String[] args) {
+        new Exercise14();
         print();
     }
 }
