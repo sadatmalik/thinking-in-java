@@ -4,8 +4,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Discov- ering the size of a Thread object varies between operating systems.
- * This program tests it by creating Thread objects until the JVM runs out of memory
+ * Discovering the size of a Thread object varies between operating systems.
+ * This program tests it by creating Thread objects until the JVM runs out of
+ * memory
  *
  * @author sm@creativefusion.net
  */
